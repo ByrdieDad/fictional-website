@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+body {
+    background-color: #ddaeae;
+    font-family: "Kurale", sans-serif;
+}
+
+.nav-box {
+    border: solid 2px transparent; /* Background color of the box */
+    padding: 10px; /* Padding around the box */
+    box-shadow: 0px px 6px 2px rgb(83, 16, 16);
+    border-radius: 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-around; /* Center horizontally */
+}
+
+.nav-container ul li img {
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-container ul li {
+    list-style-type: none;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    border: solid 2px transparent;
+    box-shadow: 0 0 3px 1px black;
+    margin: 40px;
+    border-radius: 8px;
+    padding: 0 90px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-box img {
+    width: auto;
+    height: 500px;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.left-box {
+    margin: 30px 30px;
+    width: 50%;
+}
+
+.right {
+    background-color: aliceblue;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin: 30px 50px;
+    border-radius: 20px;
+
+}
+
+.right-box {
+    background-color: rgb(218, 138, 138);
+    border-radius: 20px;
+}
+
+.right-box h1 {
+    font-size: 40px;
+    border-bottom: 2px solid transparent;
+    font-weight: bolder;
+    color: rgb(33, 142, 142);
+    text-align: center;
+    box-shadow: 1px 1px 2px 2px black;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.right-box p {
+    text-align: center;
+    padding: 10px;
+}
+
+.owners {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.phone,
+.email {
+    font-style: italic;
+    font-size: 18px;
+}
+}
+
