@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kurale&display=swap');
+
+
+body {
+    background-color: #ddaeae;
+    font-family: "Kurale", sans-serif;
+}
+
+.nav-box {
+    border: solid 2px transparent; /* Background color of the box */
+    padding: 10px; /* Padding around the box */
+    box-shadow: 0px px 6px 2px rgb(83, 16, 16);
+    border-radius: 100px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.nav-container ul li {
+    list-style-type: none;
+}
+
+.nav-container ul li a {
+    text-decoration: none;
+    border: solid 2px transparent;
+    box-shadow: 0 0 3px 1px black;
+    margin: 40px;
+    border-radius: 8px;
+    padding: 0 90px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.about-us {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us h1 {
+    color: #b37373;
+    box-shadow: 2px 2px 2px 2px;
+    width: 25%;
+    border: 2px solid black;
+}
+
+.about-us img {
+    height: 300px;
+}
+
+.house-image {
+    float: left;
+    margin-right: 20px;
+}
+
+.about-us p {
+    overflow: hidden;
+    margin: 10px 30px;
+    text-align: center;
+}
+
+.about-images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.interior {
+    width: 400px;
+}
+
+.exterior {
+    width: 400px;
+}
+
+.about-images img {
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 4px 2px 4px 2px black;
+
+}
+
+.logo {
+    width: 400px;
+}
