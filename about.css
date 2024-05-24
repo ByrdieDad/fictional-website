@@ -15,12 +15,18 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: space-around; /* Center horizontally */
+}
+
+.nav-container ul li img {
+    width: 100px;
+    border-radius: 100px;
+    border: 2px solid black;
 }
 
 .nav-container ul {
     display: flex;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
     justify-content: center;
     height: 100px;
@@ -44,12 +50,13 @@ body {
     font-size: 18px;
 }
 
+
 .about-us {
     text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
 .about-us h1 {
@@ -57,6 +64,8 @@ body {
     box-shadow: 2px 2px 2px 2px;
     width: 25%;
     border: 2px solid black;
+    text-align: center;
+    margin: auto;
 }
 
 .about-us img {
@@ -77,6 +86,7 @@ body {
 .about-images {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .interior {
